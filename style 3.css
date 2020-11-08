@@ -1,0 +1,35 @@
+form {
+	margin: 30px 0;
+}
+
+input.submit:hover, button:hover {
+	background-color: #a070df;
+}
+button.show {
+	background-image: url(https://img.icons8.com/bubbles/344/starburst-shape.png);
+}
+
+button.id {
+	background-image: url(https://img.icons8.com/bubbles/2x/zoom-in.png);
+}
+
+button.reset {
+	background-image: url(https://img.icons8.com/bubbles/2x/undo.png);
+}
+
+button.num {
+	background-image: url(https://img.icons8.com/bubbles/2x/create-new.png);
+}
+
+input.submit, button:not(#last) {
+	border: none;
+	border-radius: 10px;
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 9px 30px 9px 45px;
+}
+
+input, button {
+	margin: 15px;
+}
